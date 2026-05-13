@@ -12,7 +12,7 @@ const edad = Number(edadTexto); // Se convirte la edad a un valor number
 if (edad < 18) /* Condicional que evalúa su grupo de edad*/ {
     alert(`Hola, ${nombre}, eres menor de edad. ¡Sigue aprendiendo y disfrutando del código!`); // Alerta si no lo es
 } else {
-    alert(`Hola, ${nombre}, eres mayor de edad. ¡Prepárate para grandes oportunidades en el mundo de la programación!`); // Alerta si lo es
+    alert(`Hola, ${nombre}, eres mayor de edad. ¡Prepárate para el mundo de las deudas!`); // Alerta si lo es
 }
 // Muestra los numeros en consola ü
 console.log(nombre);
