@@ -4,5 +4,5 @@ console.log(numeros);
 // Agregar un nuevo número
 
 numeros.add(7);
-
 console.log(numeros);
+console.log(numeros.has(4));
