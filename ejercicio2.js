@@ -10,3 +10,6 @@ console.log(numeros.has(4));
 
 numeros.delete(2);
 console.log(numeros);
+for (const numero of numeros) {
+  console.log(numero);
+}
