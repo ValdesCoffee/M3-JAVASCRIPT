@@ -6,3 +6,7 @@ console.log(numeros);
 numeros.add(7);
 console.log(numeros);
 console.log(numeros.has(4));
+// Eliminar un número
+
+numeros.delete(2);
+console.log(numeros);
