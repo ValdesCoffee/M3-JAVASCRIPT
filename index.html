@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Productos</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .formulario{
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        input{
+            padding: 10px;
+        }
+
+        button{
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        li{
+            margin: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .acciones{
+            display: flex;
+            gap: 5px;
+        }
+
+        #mensaje{
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Gestor de Productos</h1>
+
+    <div id="mensaje"></div>
+
+    <div class="formulario">
+        <input
+            type="text"
+            id="nombre"
+            placeholder="Nombre del producto"
+        >
+
+        <input
+            type="number"
+            id="precio"
+            placeholder="Precio"
+        >
+
+        <button id="agregarBtn">
+            Agregar
+        </button>
+
+        <button id="sincronizarBtn">
+            Sincronizar API
+        </button>
+    </div>
+
+    <ul id="listaProductos"></ul>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
